@@ -79,13 +79,25 @@ Class balancing: compute_class_weight used to mitigate dataset imbalance
 
 Callbacks used: EarlyStopping, ReduceLROnPlateau
 
+📸 Screenshots
+
+🏠 Home Page
+
 <img width="1891" height="1036" alt="Screenshot 2025-10-05 191204" src="https://github.com/user-attachments/assets/ee3a0d1d-8ec7-4900-ac06-e6d3cd16198c" />
+
+📱 About Page
 
 <img width="1890" height="992" alt="Screenshot 2025-10-05 191228" src="https://github.com/user-attachments/assets/e999ea7a-515b-49f8-b80f-370b8118cb01" />
 
+🔍 Nail Info
+
 <img width="1892" height="974" alt="Screenshot 2025-10-05 191243" src="https://github.com/user-attachments/assets/6785c127-fda8-4fe9-b85e-c63edd86aa34" />
 
+🔍 Prediction Page
+
 <img width="1899" height="897" alt="Screenshot 2025-10-05 191256" src="https://github.com/user-attachments/assets/fc75e845-ba78-459d-8c79-53c0b5905009" />
+
+📊 Result Example
 
 <img width="1878" height="985" alt="Screenshot 2025-10-05 191312" src="https://github.com/user-attachments/assets/7bc7d28e-3e42-4775-a370-a0896cbf49c2" />
 

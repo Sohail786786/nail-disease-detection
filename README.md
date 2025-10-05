@@ -60,10 +60,16 @@ nail-disease-detection/
    ```bash
    git clone https://github.com/Sohail786786/nail-disease-detection.git
    cd nail-disease-detection
+
+   
 2. Install dependencies
   pip install -r requirements.txt
+
+
 3.Run the web app
   python app.py
+
+  
 4.Open in browser
   Go to http://127.0.0.1:5000/ to use the app.
 

@@ -1,12 +1,23 @@
+# Python cache & compiled files
 __pycache__/
 *.pyc
+
+# Virtual environments
 venv/
 env/
+
+# IDE / editor configs
 .vscode/
 .idea/
+
+# Project assets
 Dataset/
-model/
 static/uploads/
+
+# Model and checkpoint files
 *.h5
 *.ckpt
+model/
+
+# Environment files
 .env

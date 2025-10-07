@@ -75,8 +75,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(rgba(5,102,141,0.7), rgba(2,128,144,0.7)),
-                url("{{ url_for('static', filename='images/doctor.png') }}") no-repeat center center;
+            background: linear-gradient(rgba(5, 102, 141, 0.7), rgba(2, 128, 144, 0.7)),
+            url("{{ url_for('static', filename='images/doctor.png') }}") no-repeat center center;
             background-size: cover;
             background-position: center;
             animation: fadeIn 1.5s ease;
@@ -252,8 +252,10 @@
     <div class="container">
         <h2>How It Works</h2>
         <p class="description">
-            Our system uses advanced AI techniques to analyze nail images and detect common nail diseases at an early stage.
-            Simply upload a clear image of your nail, and our trained models will provide a prediction along with the probability
+            Our system uses advanced AI techniques to analyze nail images and detect common nail diseases at an early
+            stage.
+            Simply upload a clear image of your nail, and our trained models will provide a prediction along with the
+            probability
             of each condition. This helps users take timely medical action.
         </p>
         <h2>Get Started</h2>
@@ -261,27 +263,22 @@
     </div>
 
     <!-- Models Section -->
+    <!-- Models Section -->
     <section class="models-section">
-        <h2>Models Used in This Project</h2>
+        <h2>Model Used in This Project</h2>
         <div class="models-grid">
             <div class="model-card">
-                <h3>VGG16</h3>
-                <p>Simple and effective convolutional network. Serves as a strong baseline for image classification in nail detection.</p>
-            </div>
-            <div class="model-card">
-                <h3>ResNet50</h3>
-                <p>Uses residual learning to improve accuracy by enabling very deep networks without vanishing gradients.</p>
-            </div>
-            <div class="model-card">
-                <h3>InceptionV3</h3>
-                <p>Efficient multi-scale feature extraction, capturing different sized patterns in nail images effectively.</p>
-            </div>
-            <div class="model-card">
-                <h3>Xception</h3>
-                <p>Depthwise separable convolutions allow high accuracy with fewer parameters, ideal for complex image tasks.</p>
+                <h3>EfficientNetB0</h3>
+                <p>
+                    A state-of-the-art convolutional neural network that efficiently scales depth, width, and
+                    resolution.
+                    Provides high accuracy for image classification tasks with fewer parameters and faster training,
+                    making it ideal for nail disease detection on smaller datasets.
+                </p>
             </div>
         </div>
     </section>
+
 
     <!-- Footer -->
     <footer>
